@@ -76,7 +76,7 @@ jobs:
         with:
           bucket: gha-security-hosting-demo-4531
           dist-folder: ./dist
-          # bucket-region: ap-south-1
+          #  bucket-region: ap-south-1
       - name: Output information
         run: |
           echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
